@@ -108,7 +108,7 @@ function initPage() {
     });
 
     var contentHTMl = `
-
+                    <div class="content-area">
                         <div class="alert alert-danger content-error">
                             <strong>Wrong!</strong> please write in all the cells.
                         </div>
@@ -118,7 +118,8 @@ function initPage() {
                         <input class="contact-subject" type="text" placeholder="type subject here">
                         <h5>Message Body</h5>
                         <textarea class="contact-body" type="text" placeholder="type message text here"></textarea>
-                        <button onclick="sendEmail()" class="btn btn-success send-mail" type="button">Submit</button>`;
+                        <button onclick="sendEmail()" class="btn btn-success send-mail" type="button">Submit</button>
+                    </div>`;
 
 
     var elPortfilio = $('#portfolio-items-container');

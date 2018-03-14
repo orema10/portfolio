@@ -45,6 +45,7 @@ section h3.section-subheading {
         padding: 150px 0;
     }
 }
+
 ::-moz-selection {
     background: #fed136;
     text-shadow: none;
@@ -473,6 +474,7 @@ header.masthead .intro-text .intro-heading {
     margin-bottom: 0;
 }
 @media (min-width: 768px) {
+
     .timeline:before {
         left: 50%;
     }
@@ -756,12 +758,28 @@ fieldset[disabled] .btn-xl:hover {
     margin: 10px auto;
 }
 
-.contact-continer {
+@media(max-width: 600px) {
+    .offcanvas-aside-open {
+        width: 60vw;
+    }
+
+    .offcanvas-btn-open {
+        margin-left: 60vw;
+    }
+}
+
+.offcanvas-aside-open.contact-continer {
+    display: flex;
+    justify-content: center;
     z-index: 1;
 }
 
 .content-error {
     width: 300px;
+    display: none;
+}
+
+.content-area {
     display: none;
 }
 
