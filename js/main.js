@@ -59,7 +59,7 @@ function initPage() {
                                 <img class="img-fluid" src="img/portfolio/${gProjs[idx].imgName}" alt="">
                             </a>
                             <div class="portfolio-caption">
-                                <h4>${gProjs[idx].name}</h4>
+                                <h4 class="portfolio-title">${gProjs[idx].name}</h4>
                                 <span class="badge-items">${getBadge(gProjs[idx].badges)}</span>
                                 <p class="text-muted">${gProjs[idx].title}</p>
                             </div>

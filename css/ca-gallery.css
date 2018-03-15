@@ -1,6 +1,8 @@
 body {
     overflow-x: hidden;
     font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: lightslategray;
+    color: white;
 }
 p {
     line-height: 1.75;
@@ -70,7 +72,7 @@ body {
     left: 3%;
     height: 50px;
     width: 50px;
-    background: #e2cb36;
+    background: #0a7859;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -109,7 +111,7 @@ body {
     left: 0;
 }
 #mainNav {
-    background-color: #222222;
+    background-color: #0a7859;
 }
 #mainNav .navbar-toggler {
     font-size: 12px;
@@ -123,7 +125,7 @@ body {
     text-transform: uppercase;
 }
 #mainNav .navbar-brand {
-    color: #fed136;
+    color: #0a7859;
     font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
 }
 #mainNav .navbar-brand.active,
@@ -167,11 +169,12 @@ body {
     #mainNav.navbar-shrink {
         padding-top: 0;
         padding-bottom: 0;
-        background-color: #222222;
+        background-color: #222222;      
     }
     #mainNav.navbar-shrink .navbar-brand {
         font-size: 1.25em;
         padding: 12px 0;
+        
     }
 }
 header.masthead {
@@ -288,9 +291,11 @@ header.masthead .intro-text .intro-heading {
     margin: 0;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
 #portfolio * {
     z-index: 2;
 }
+
 @media (min-width: 767px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
@@ -785,4 +790,24 @@ fieldset[disabled] .btn-xl:hover {
 
 .show {
     display: block;
+}
+
+.title-color {
+    color: #fdd235;
+    text-shadow: 2px 2px black;
+}
+
+.btn-xl.btn-upgrade {
+    background-color: #0a7859;
+    border-color: #0a7859;
+}
+
+.shadow {
+    text-shadow: 3px 3px black;
+}
+
+.portfolio-title {
+    color: lightslategray;
+    text-shadow: 1px 1px black;
+        
 }
