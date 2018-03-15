@@ -2281,6 +2281,7 @@ var Modal = function ($) {
         var margin = $(element).data('margin-right');
         if (typeof margin !== 'undefined') {
           $(element).css('margin-right', margin).removeData('margin-right');
+  
         }
       });
 

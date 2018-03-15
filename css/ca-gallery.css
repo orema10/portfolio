@@ -181,6 +181,8 @@ header.masthead {
     text-align: center;
     color: white;
     background-image: url("../img/header-bg.jpg");
+    width: 100%;
+    height: auto;;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
